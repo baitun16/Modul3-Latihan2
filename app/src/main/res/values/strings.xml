@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Latihan 2</string>
+    <string name="linear_layout_orientation_vertical">Linear Layout Orientation Vertical</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="line">LINE</string>
+    <string name="instagram">Instagram</string>
+    <string name="linear_layout_orientation_horizontal">Linear Layout Orientation Horizontal</string>
+    <string name="lineButton">LINE</string>
+    <string name="whatsapp_button">WHATSAPP</string>
+    <string name="instagram_button">INSTAGRAM</string>
+</resources>

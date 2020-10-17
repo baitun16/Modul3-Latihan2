@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="366dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/linear_layout_orientation_vertical"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="291dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="#A5D6A7"
+            android:text="@string/whatsapp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="288dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="#DF49B34E"
+            android:text="@string/line"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="282dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="#F6115E"
+            android:text="@string/instagram"
+            android:textColor="#153575"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/linear_layout_orientation_horizontal"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#A5D6A7"
+            android:text="@string/whatsapp_button" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="#DF49B34E"
+            android:singleLine="false"
+            android:text="@string/lineButton"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="#F6115E"
+            android:text="@string/instagram_button"
+            android:textColor="#153575" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
